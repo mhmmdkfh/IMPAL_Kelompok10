@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="description" content="">
+            <meta name="author" content="Kelompok 4">
+
+            <title>LaundrYuk - Home</title>
+
+            <!-- Bootstrap Core CSS -->
+            <link href="../css/bootstrap.min.css" rel="stylesheet">
+            <link href="../css/aos.css" rel="stylesheet">
+            <!-- MetisMenu CSS -->
+            <link href="../css/metisMenu.min.css" rel="stylesheet">
+
+            <!-- Custom CSS -->
+            <link href="../css/startmin.css" rel="stylesheet">
+            <!-- Custom CSS For User -->
+            <link href="../css/mystyle.css" rel="stylesheet">
+            <!-- Custom Fonts -->
+            <link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css">
+            <!-- Bootstrap Datepicker CSS -->
+            <link rel="stylesheet" type="text/css" href="../css/bootstrap-datepicker3.css">
+            <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+            <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+            <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+            <![endif]-->
+    </head>
+    <body>
+        <!--Header-->
+        <div class="container-fluid">
+            <div class="row" id="header">
+                <div class="col-lg-12" id="header-wrapper">
+                    <div class="col-md-4" id="header-title">
+                        <ul class="list-inline">
+                            <li>
+                                <a href="index.html"><img src="../picture/laundryukk.png"></a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="col-md-8 text-right" id="navigation">
+                        <ul class="list-inline">
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="#tracking-section" id="tracking-link">Tracking</a></li>
+                            <li><a href="#card-section" id="service-link">Our Services</a></li>
+                            <li><a href="#order-section" id="order-link">Order</a></li>
+                            <li><a href="#contact-section" id="contact-link"> Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        <!--mid-->
+
+            <div class="row">
+                <div class="col-md-12"  id="big-photo">
+                        <img src="../picture/fix.png" class="img-responsive" id="image">
+                        <div class="col-md-5" id="description" data-aos="zoom-out-right">
+                            <div class="text-right">
+                            <div id="titlee">
+                                <h2>Laundry Service </h2>
+                            </div>
+                            <div id="content">
+                                Rasakan kemudahan dalam melakukan laundry bersama LaundryKu,
+                                proses cepat dan beberapa service yang bisa anda pilih.
+                                Laundry di antar dan jemput oleh kurir terpercaya kami.
+                            </div><br>
+                            <center>
+                                <button type="submit" class="btn btn-success btn-lg btn-block text-left" id="order-button">
+                                        Order Sekarang!
+                                </button>
+                            </center>
+                        </div>
+                        </div>
+                </div>
+            </div>
+            <div class="row" id="tracking-section">
+                <center><h1 class="title">Lacak Pesanan</h1></center><br><br>
+                <form method="post" action="tracking.php">
+                <div class="col-md-10" id="tracking-content">
+                    <div class="form-group">
+                        <input type="text" class="form-control input-lg"  name="orderid" placeholder="Your Order ID">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <button type="submit" class="btn btn-success btn-block btn-lg"> Submit </button>
+                </div>
+                </form>
+            </div>
+            <div class="row text-center" id="card-section">
+                <center><h1 class="title">Our Services</h1></center><br><br>
+                <div class="col-md-4" data-aos="zoom-out-left" data-aos-duration="900">
+                    <div class="card" >
+                        <h3>Reguler</h3>
+                        <img src="../picture/pakaian1.jpg" class="img-responsive" id="image1"><br>
+                        <p>Proses cuci pakaian membutuhkan 2-3 hari, harga lebih terjangkau dan menyesuaikan
+                        dengan kantong mahasiswa. Harga: Rp.6.000/kg</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="zoom-out-right" data-aos-duration="900">
+                    <div class="card">
+                        <h3>Kilat</h3>
+                        <img src="../picture/pakaian.jpg" class="img-responsive" id="image2"><br>
+                        <p>Untuk anda yang membutuhkan pakaian anda dicuci dengan cepat. Terdapat paket kilat yang
+                        akan membuat pakaian anda bersih dalam 1 hari. Harga: Rp.10.000/kg</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="zoom-out-right" data-aos-duration="900">
+                    <div class="card">
+                        <h3>Antar & Jemput Laundry</h3>
+                        <img src="../picture/delivery.png" class="img-responsive" id="image3"><br>
+                        <p>Anda tidak perlu repot-repot keluar rumah dan membawa pakaian kotor anda ke tempat kami.
+                        Kurir kami yang akan membawakan dan mengantarkan pakaian anda dengan aman</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="order-section">
+                <center><h1 class="title">Order</h1></center>
+                <div class="col-md-6 col-md-offset-3">
+                        <form method="post" action="order-pelanggan.php">
+                        <div id="data-pelanggan">
+                            <div class="form-group">
+                                <label><b>Nama</b></label>
+                                <input type="text" name="namapelanggan" placeholder="Masukan Nama Anda" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label><b>No.Telepon</b></label>
+                                <input type="text" name="notelp" placeholder="Masukan No Telepon Anda" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label><b>Alamat</b></label>
+                                <input type="text" name="alamat" placeholder="Masukan Alamat Anda" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label><b>Email</b></label>
+                                <input type="text" name="email" placeholder="Masukan Email Anda" class="form-control">
+                            </div>
+                        </div>
+                        <div id="data-order">
+                            <div class="form-group">
+                                <label><b>Jenis Jasa</b></label>
+                                <select class="form-control" name="jenisjasa" id="jenisjasa">
+                                    <?php
+                                        while ($row = mysqli_fetch_object($query)) {
+                                     ?>
+                                     <option value="<?php echo $row->Harga ?>"><?php echo $row->Nama_Jasa; ?></option>
+                                     <?php } ?>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label><b>Tanggal</b></label>
+                                <input type="text" name="tgl" class="form-control datepicker"  placeholder="Pilih Tanggal Order">
+                            </div>
+
+                            <button class="btn btn-success pull-right" type="submit">Order</button>
+                        </div>
+                        </form>
+                        <button class="btn btn-primary btn-next pull-right" id="selanjutnya">Selanjutnya</button>
+                        <button class="btn btn-primary btn-kembali" id="kembali">Kembali</button>
+
+                </div>
+            </div>
+             <div class="row" id="contact-section">
+                <center><h1 class="title">Contact Us</h1></center>
+                    <div class="col-md-6 col-md-offset-3" id="contact-content">
+                        <form method="post" action="pesanfrompelanggan.php">
+                            <div class="form-group">
+                                    <input class="form-control" placeholder="Full Name" name="nama">
+                                 </div>
+                                 <div class="form-group">
+                                     <input class="form-control" placeholder="Email" name="email">
+                                 </div>
+                                 <div class="form-group">
+                                     <input class="form-control" placeholder="Subject" name="subject">
+                                 </div>
+                                 <div class="form-group">
+                                <textarea class="form-control" rows="3" placeholder="Your Message" name="pesan"></textarea>
+                                </div>
+                                <button class="btn btn-primary text-right pull-right btn-block">Send</button>
+                        </form>
+                    </div>
+            </div>
+        
+             
+            <div class="row">
+                <div class="col-md-12" id="footer-section">
+                    <center>
+                            &copy; LaundryKu Web Development Team 2018
+                    </center>
+                </div>
+            </div>                <!-- /.panel-body -->
+        </div>                   <!-- /.panel-footer -->               
+
+
+
+
+
+        <script src="../js/jquery.min.js"></script>
+        <script src="../js/aos.js"></script>
+        <script src="../js/jspdf.min.js"></script>
+        <!-- Bootstrap Core JavaScript -->
+        <script src="../js/bootstrap.min.js"></script>
+
+        <!-- Metis Menu Plugin JavaScript -->
+        <script src="../js/metisMenu.min.js"></script>
+
+        <!-- Custom Theme JavaScript -->
+        <script src="../js/startmin.js"></script>
+        <!-- DataTables JavaScript -->
+        <script src="../js/dataTables/jquery.dataTables.min.js"></script>
+        <script src="../js/dataTables/dataTables.bootstrap.min.js"></script>
+        <!-- My Costum Javascript -->
+        <script src="../js/myscript.js"></script>
+        <!-- Datepicker Javascript -->
+        <script type="text/javascript" src="../js/bootstrap-datepicker.min.js"></script> 
+    </body>
+</html>
+
+            
+       

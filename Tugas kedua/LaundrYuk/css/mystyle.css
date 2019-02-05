@@ -1,0 +1,253 @@
+@font-face{
+	font-family: Lato;
+	src=url(fonts/Lato-Regular.ttf);
+}
+@font-face{
+	font-family: LatoBold;
+	src=url(fonts/Lato-Bold.ttf);
+	font-weight: bold;
+}
+*{
+	font-family: Lato;
+}
+#header-wrapper{
+	background-color: #435058;
+	padding: 10px;
+}
+#header-title{
+	font-family: LatoBold;
+	padding: 0px 0px 0px 40px;
+	margin: 0;
+
+}
+#header-title ul li a{
+	text-decoration: none;
+	color: #f4f5f2;
+
+}
+#navigation{
+	padding: 10px 0px 0px 0px;
+	color: #f4f5f2;
+	text-shadow: 2px 2px #2b3339;
+}
+#navigation ul li a{
+	text-decoration: none;
+	color: #f4f5f2;
+	font-size: 22px;
+	padding-right: 30px;
+	display: block;
+}
+/*#navigation ul li a:hover{
+	background-color: #313b41;
+}*/
+#big-photo{
+	padding: 0;
+}
+#image{
+	z-index: 0;
+}
+#description{
+	position: absolute;
+	top: 65px;
+	left: 180px;
+	color: #f4f5f2;
+	padding: 10px;
+	width: 300px;
+	z-index: 1;
+}
+#title{
+	font-size: 12px;
+	text-align: left;
+}
+#titlee{
+	font-size: 12px;
+	padding: 33px;
+	text-align: left;
+}
+#contentt{
+	padding: 33px;
+	text-align: left;
+}
+#content{
+	text-align: left;
+}
+#card-section{
+	color: #f4f5f2;
+	padding: 20px 10px 30px 10px;
+	background-color: #f7d264;
+}
+#card-section center h1{
+	text-shadow: 2px 2px #878f94;
+}
+
+.card{
+	 background-color: #435058;
+	 height: 400px;
+	 width: 350px;
+	 box-shadow: 5px 5px 8px 0 rgba(0,0,0,0.2);
+     transition: 0.3s;
+     padding: 10px;
+     margin-left: 60px;
+     border-radius: 5px;
+}
+.card:hover {
+    box-shadow: 0 8px 16px #313b41;
+}
+.card-container{
+    padding: 2px 16px;
+}
+
+#contact-section{
+	background-color: #dcf763;
+	padding: 10px 0px 0px 0px;
+	color: #f4f5f2;
+}
+#map{
+	padding: 5px 0px 10px 20px;
+}
+#contact-content{
+	padding: 80px 20px 0px 0px;
+	text-align: center;
+	
+}
+#contact-info{
+	padding: 20px 0px 0px 0px;
+	list-style: none;
+	font-size: 20px;
+}
+#contact-info li{
+	margin-bottom: 10px;
+}
+#footer-section{
+	background-color: #435058;
+	padding: 5px;
+	color: #f4f5f2;
+	font-size: 20px;
+}
+#tracking-section{
+	background-color: #435058;
+	padding: 20px 10px 60px 10px;
+	color: #f4f5f2;
+}
+.title{
+	text-shadow: 3px 2px #878f94;
+}
+.title:after {
+    display: inline-block;
+    margin: 0 0 8px 20px;
+    height: 3px;
+    content: " ";
+    text-shadow: 3px 3px #878f94;
+    background-color: #f4f5f2;
+    width: 140px;
+}
+.title:before {
+    display: inline-block;
+    margin: 0 20px 8px 0;
+    height: 3px;
+    content: " ";
+    text-shadow: 3px 3px #878f94;
+    background-color: #f4f5f2;
+    width: 140px;
+}
+#order-section{
+	background-color: #435058;
+	padding: 20px 10px 60px 10px;
+	color: #f4f5f2;
+}
+#konfirmasi-header{
+	background-color: #dcf763;
+	padding: 100px 10px 20px 10px;
+	color: #f4f5f2;
+}
+#konfirmasi-content{
+	background-color: #dcf763;
+	padding: 10px 10px 114px 10px;
+	color: #f4f5f2;
+}
+#konfirmasi-card{
+	 background-color: #f4f5f2;
+	 color: #dcf763;
+	 height: 400px;
+	 box-shadow: 5px 5px 8px 0 rgba(0,0,0,0.2);
+     transition: 0.3s;
+     padding: 10px;
+     border-radius: 9px;
+}
+.order-id{
+	padding-left: 30px;
+    color: #545f67;
+}
+.order-date{
+	padding-right: 30px;
+	color: #545f67;
+}
+.pembatas {
+	margin: 10px 20px 0px 20px;
+    height: 2px;
+    content: " ";
+    text-shadow: 3px 3px #878f94;
+    background-color: #dcd7d7;
+}
+#service-desc{
+	color: #545f67;
+	padding: 10px 30px 0px 40px ;
+}
+#service-desc ul li{
+	margin-right: 20px;
+}
+#service-desc2{
+	color: #545f67;
+	padding: 0px 30px 0px 40px ;
+}
+#service-desc2 ul li{
+	margin-right: 5px;
+}
+#data-pelanggan{
+	padding: 0px 0px 0px 10px;
+}
+#judul{
+	color: #dcf763;
+}
+#isi{
+	color: #545f67;
+}
+.tracking{
+	background-color: #dcf763;
+	padding: 30px 0px 20px 0px;
+}
+.tracking h1{
+	color: #f4f5f2;
+}
+.tracking h4{
+	color: #f4f5f2;
+}
+.invoice-info{
+
+}
+#laundry-info{
+	background-color: #dcf763;
+	padding: 0px 0px 70px 0px;
+}
+#laundry-info-card{
+	 background-color: #f4f5f2;
+	 box-shadow: 5px 5px 8px 0 rgba(0,0,0,0.2);
+     transition: 0.3s;
+     padding: 10px;
+     border-radius: 5px;
+}
+#laundry-info h3{
+	color: #f4f5f2;
+}
+#download{
+	padding: 70px 0px 0px 0px;
+}
+.mytable{
+	display: table;
+}
+.myrow{
+	display: table-row;
+}
+.mycell{
+	display: table-cell;
+}
